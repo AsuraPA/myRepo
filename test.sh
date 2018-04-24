@@ -23,7 +23,7 @@ function fun ()
 
 shift
 if [ "$#" -lt 2 ]; then
-	fun 'start'; echo 'aaaaaaaaa'
+	fun 'start'; echo 'aaaaaaaaab'
 else
 	echo "$@"
 fi
